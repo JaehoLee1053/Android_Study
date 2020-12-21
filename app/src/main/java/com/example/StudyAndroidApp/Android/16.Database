@@ -1,0 +1,33 @@
+Database
+- Data를 저장하기 위함
+
+데이터 저장 방식
+- RDB
+    - 관계형 database
+    - 엑셀처럼 생김
+
+ Ex)
+  이름    학번  학교  성별
+  홍길동   1   서울  남
+
+- Key-value
+    - 쌍으로 자장하는 방식 (키, 밸류)
+
+- RDBMS
+    - Relational Database Management system
+    - RDB 관리 하기 위함 툴
+    - MySQL
+    - Oracle
+    - PostgreSQL
+
+- SQL
+    - RDBMS를 위한 언어
+
+- NoSQL
+    - SQL 말고 다르게 해보자
+
+안드로이드 DB
+- SQLiteDatabase
+- SharePreference
+    - Key-value 방식
+    - 목적: 공유된 사용자의 기호

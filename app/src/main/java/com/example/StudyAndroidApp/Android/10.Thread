@@ -1,0 +1,22 @@
+10. Thread
+- 작업 흐릅
+
+앱 실행 -> launcher Activity -> input에 따른 작업흐름 ->
+
+안드로이드의 thread
+-> MainThread
+--------------------------------------->
+    -> launcher Activity
+            -> Activit B
+                    -> 영상 재생 등등
+
+
+MainThread (default로 존재)
+    Sub Thread
+    -> 여러가지 일을 한번에 할 수 있다
+
+안드로이드 MainThread 특징
+- UI Thread: 사용자의 input을 받는 thread
+- 절대 정지시키면 안 된다
+    - 정지/종료 시 더 이상 사용자의 input을 받을 수 없다
+    

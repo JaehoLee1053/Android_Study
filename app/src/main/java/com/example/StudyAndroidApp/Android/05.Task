@@ -1,0 +1,22 @@
+05. Task -> Activity와 유사
+- Stack: LIFO
+    - Task가 쌓인다
+
+켜지는 방법을 자체 속성으로 가지고 있는 경우
+- launchMode
+
+켜지는 방법을 지시하는 경우
+-> IntentFlag
+
+LaunchMode          다중허용
+- Standard          O -> 새로 요청이 들어오면 새로 연다
+- singleTop         조건부 -> 열고자 하는 Activity가 현재 Activity라면 onNewIntent를 호출, 새로 열지 않음
+------------
+- singleTask        X
+- singleInstance    X
+
+Intent Flag -> 가능하면 안 건드리는 게 가장 좋음
+FLAG_ACTIVITY_NEW_TASK
+FLAG_ACTIVITY_SINGLE_TOP
+FLAG_ACTIVITY_CLEAR_TOP
+etc

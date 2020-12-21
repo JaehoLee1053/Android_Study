@@ -1,0 +1,15 @@
+Null Safety
+-> Null에 대해서 안전
+-> 코틀린의 특징
+
+Null이 안전하지 않은 이유
+-> NullPointExceptionError 발생
+
+if(number != null)
+
+Null Safety 위한 문법
+-> !! : Null이 아님을 개발자가 보증, 비추천
+-> ? : Null이 아니면 이하 구문 실행
+
+Null이 될 수 있는 타입
+-> 자료형?

@@ -1,0 +1,24 @@
+Async
+
+동기방식
+- 작업을 순서대로 진행 (위에서 아래로)
+
+비동기방식
+- 쓰레드를 만들어 작업을 따로 처리
+
+방법
+- AsyncTask 상속받기
+    -> onPreExecute         : 쓰레드 출발 전 작업
+    -> doItBackground       : 쓰레드가 할 작업
+    -> onProgressUpdate     : 중간중간 MainThread로 온다
+    -> onPostExecute        : 작업을 다 마친 후 MainThread로 복귀
+
+
+장점
+- MainThread를 기다리게 할 필요 없다
+- 네트워크 작업에 사용
+
+단점
+- 재사용 불가능
+- 구현된 Activity 종료되어도 같이 종류되지 않음
+- 하나만 실행될 수 있다

@@ -1,0 +1,10 @@
+09.Context
+역할 -> ActivityManagerService(개발 편이를 위해 미리 개발된 부분)에 접근하는 역할
+
+안드로이드는 이미 많은 부분들이 만들어져 있다
+-> 이런 것들 사용을 위해 context필요
+
+종류
+- activity의 context -> Activity의 주변 정보
+- application의 context -> Application의 주변 정보
+-> application이 activity의 상위 개념

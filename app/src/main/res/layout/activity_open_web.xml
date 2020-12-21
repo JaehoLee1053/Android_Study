@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".OpenWeb"
+    android:weightSum="10">
+
+    <EditText
+        android:id="@+id/edit_text_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Web Address"
+        android:layout_weight="6"/>
+
+    <Button
+        android:layout_weight="4"
+        android:id="@+id/btn_open_web"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="Open Web" />
+
+</LinearLayout>

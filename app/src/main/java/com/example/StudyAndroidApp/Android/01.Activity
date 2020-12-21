@@ -1,0 +1,18 @@
+Android Life Cycle
+- onCreate
+    -> 최초 Activity가 생성될 때 1회만 호출
+    -> Activity가 생성될 때 단 1번만 하면 되는 작업 시행 (ex. 초기화)
+
+- onStart
+
+- onResume
+    -> 다시 app으로 돌아올 때 무조건 호출
+    -> Activity가 다시 호출될 때 하면 되는 작업 시행
+
+- onPause
+    -> 화면의 일부가 가려졌을 때
+
+- onStop
+    -> 화면 전부가 보이지 않을 때
+
+- onDestroy

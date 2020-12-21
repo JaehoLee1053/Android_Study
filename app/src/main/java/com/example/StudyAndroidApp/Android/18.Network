@@ -1,0 +1,39 @@
+Network
+
+DB <-> Server <-> Client(app, web, ...)
+
+Local DB의 한계
+- 동기화 어려움
+- 상호작용 불가
+
+
+서버와 통신하는 방법
+- 해당 url로 요청
+- 인증정보를 보낸다
+- JSON 형식을 사용해서 data 전송
+- JS Object Notation -> JS에서 객체를 만들 때 사용하는 표현식
+
+JSON 형식
+- [] -> List
+- {} -> 객체
+
+
+JSON Parsing
+-> JSON을 kotlin, java가 알아들을 수 있게 변형하는 것
+
+Serializable (직렬화)
+-> Java system 내부에서 사용되는 object를 외부에서 사용할 수 있도로 byte 형태(틀)로 데이터를 바꾸는 것
+
+Request Type
+- GET       -> 정보 요청          -> 200 OK
+- POST      -> 정보 추가 요청     -> 201 Created
+- DELETE    -> 정보 삭제 요청
+- PUT       -> 정보 수정 요청
+
+Status Code
+- 200번대 -> 처리가 잘 됐다
+- 400번대
+
+Library
+- Volly
+- Retrofit

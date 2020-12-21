@@ -1,0 +1,17 @@
+06. Fragment
+- Activity가 길어지게되면 관리 포인트 증가 -> 관리 난해
+- 태블릿 등 다른 기기에서는 다른 구성 필요
+
+사용처
+- Activity의 part를 나누어 담당
+
+- Fragment 자체 Life Cycle이 존재
+- Activity 종속 (Activity 종료 시 같이 종료)
+
+사용방법
+- xml에 ViewCOmponent로 추가
+- 코드로 동적 추가
+
+data 전달 방법
+- Activity -> Fragment : argument와 bundle
+- Fragment -> Activity : 자체 구현(리스너 구현)
